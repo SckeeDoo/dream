@@ -3261,7 +3261,7 @@ figure{ margin: 0; }
 .grid-item.feature-box-4 figure:hover img {transition-timing-function: ease-in-out; -webkit-transition-timing-function: ease-in-out; -moz-transition-timing-function: ease-in-out; -ms-transition-timing-function: ease-in-out; -o-transition-timing-function: ease-in-out; transform: scale(1.09,1.09); -webkit-transform: scale(1.09,1.09); -moz-transform: scale(1.09,1.09); -ms-transform: scale(1.09,1.09); -o-transform: scale(1.09,1.09); }
 
 /* feature box style 5 */
-.feature-box-5 {padding-left:75px}
+.feature-box-5
 .feature-box-5 i {position: absolute; top: 0; left: 0}
 
 /* feature box style 6 */
@@ -3408,8 +3408,77 @@ figure{ margin: 0; }
 
 
 
+.counter-pie {
+    display: table-cell;
+    margin:1.5%;
+    font-size:50px;
+    background-color: #FF6F6F;
+    width:200px;
+    border-radius: 50%;
+    height:200px;
+    vertical-align: middle;
+}
 
 
+#circular-chart {
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#circle {
+    fill: none;
+    stroke: #f6f7fa;
+    stroke-width: 17;
+    stroke-linecap: line;
+    animation: progress 2s ease-out forwards;
+}
+
+@keyframes progress {
+    0% {
+        stroke-dasharray: 100 0;
+    }
+}
+
+
+
+
+#progress-animation {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+
+
+
+#color-svg {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#gray-svg {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+
+
+
+#numbers-progress {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    z-index: 15;
+}
 
 
 
