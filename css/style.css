@@ -3444,40 +3444,29 @@ figure{ margin: 0; }
 
 
 
-#progress-animation {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 10;
+.container-pie {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "overlap";
 }
 
-
-
-
-#color-svg {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
+.item-1 {
+    grid-area: overlap;
+    align-self: center;
+    justify-self: center;
 }
 
-#gray-svg {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 10;
+.item-2 {
+    grid-area: overlap;
 }
 
+.item-3 {
+    grid-area: overlap;
+}
 
-
-
-#numbers-progress {
-    width: 100%;
-    height: 100%;
-    left: 0;
-    z-index: 15;
+.item-4 {
+    grid-area: overlap;
 }
 
 
